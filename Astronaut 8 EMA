@@ -59,6 +59,9 @@ ma13 = exponential ? ta.ema(srcvol, lngth) : ta.sma(srcvol, lngth)
 condition=vol>=ma13
 barcolor((condition and shwvol)  ? color.yellow : na)
 
+https://github.com/slLuzifer/Astronaut-Pro
+https://t.me/Astronautadmin
+
 
 
 
