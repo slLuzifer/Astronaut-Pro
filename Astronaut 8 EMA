@@ -1,4 +1,10 @@
 //@version=5
+
+//https://github.com/slLuzifer/Astronaut-Pro
+//https://t.me/Astronautadmin
+//Developed by Astronauts -( Jayampathi Bandara / Buddhika Sudarshana)
+
+
 indicator("Astronaut 8 EMA ",  overlay=true)
 shwema = input(false, 'Show EMAs')
 shwvol = input(false, 'Show high volume')
@@ -59,8 +65,8 @@ ma13 = exponential ? ta.ema(srcvol, lngth) : ta.sma(srcvol, lngth)
 condition=vol>=ma13
 barcolor((condition and shwvol)  ? color.yellow : na)
 
-https://github.com/slLuzifer/Astronaut-Pro
-https://t.me/Astronautadmin
+//https://github.com/slLuzifer/Astronaut-Pro
+//https://t.me/Astronautadmin
 
 
 
