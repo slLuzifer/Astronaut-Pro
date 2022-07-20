@@ -60,7 +60,7 @@ condition=vol>=ma13
 barcolor((condition and shwvol)  ? color.yellow : na)
 
 
-fill(ema1plot, ema2plot, color=ema1>ema2? color.rgb(0,255,0,80):color.rgb(255,0,0,80), transp=85, editable=true)
+
 
 
 
